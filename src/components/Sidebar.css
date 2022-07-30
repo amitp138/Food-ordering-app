@@ -1,0 +1,18 @@
+.btn{
+    border: 1px solid white;
+    width: 15vw;
+    margin-top: 15vh;
+    margin-left: 6vw;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #62D793;
+}
+.menu{
+color: #62D793;
+font-size: 15px;
+margin: 10px;
+}

@@ -1,0 +1,42 @@
+.headcart{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+    
+}
+.infoorder{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+.edit{
+  color: #62D793;
+    
+}
+.clock>img{
+    width: 2vw;
+    height: 3vh;
+   margin: 10px;
+}
+.time{
+    display: flex;
+  
+   align-items: center;
+    
+}
+.url{
+    width: 3vw;
+    height: 5vh;
+}
+.finalcheck{
+    background-color: #62D793;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 20px;
+    border: 1px solid #62D793 ;
+}
+.tprice{
+    display: flex;
+    justify-content: space-between;
+}

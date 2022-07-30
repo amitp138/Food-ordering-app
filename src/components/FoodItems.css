@@ -1,0 +1,144 @@
+.food {
+  display: flex;
+  
+  flex-wrap:wrap;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+.filter> img {
+    width: 1vw;
+    height: 2vh;
+  }
+  .filter {
+    background-color: white;
+    border: 1px solid grey;
+  }
+.opt{
+    display: flex;
+    margin-top: 40px;
+   
+ 
+}
+.opt>select{
+    width:10vw ;
+}
+.fooditem {
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 14vw;
+  height: 27vh;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image {
+  width: 13vw;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+}
+.image > img {
+  width: 5vw;
+  height: 7vh;
+}
+.rating {
+  display: flex;
+  background-color: black;
+  border-radius: 10px;
+  align-items: center;
+  width: 30px;
+  height: 15px;
+  color: white;
+  margin: 10px;
+  font-size: 10px;
+}
+.likebtn > img {
+  width: 10px;
+  height: 10px;
+}
+.likebtn {
+  height: 20px;
+  width: 25px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 1px solid white;
+  background-color: white;
+}
+.rating > img {
+  width: 10px;
+  height: 10px;
+}
+.detail {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin: 5px 0px 0px 7px;
+
+  height: 7vh;
+}
+
+.weight > button {
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: #F8FFFF;
+  font-weight: bolder;
+}
+.price{
+    margin-left: 10px;
+}
+#pink {
+  background-color: #fde9f7;
+}
+#pink > .content > .detail > .weight > button {
+  color: #fde9f7;
+}
+#skin {
+  background-color: #fdf3ea;
+}
+#skin > .content > .detail > .weight > button {
+  color: #fdf3ea;
+}
+#blue {
+  background-color: #eafffe;
+}
+#blue > .content > .detail > .weight > button {
+  color: #eafffe;
+}
+#lightblue {
+  background-color: #e9f7ff;
+}
+#lightblue > .content > .detail > .weight > button {
+  color: #e9f7ff;
+}
+#green {
+  background-color: #f8ffea;
+}
+#green > .content > .detail > .weight > button {
+  color: grey;
+}
+#purple {
+  background-color: #edf1ff;
+}
+#purple > .content > .detail > .weight > button {
+  color: #edf1ff;
+}
+#lightpink {
+  background-color: #fde9ea;
+}
+#lightpink > .content > .detail > .weight > button {
+  color: #fde9ea;
+}
+#yellow {
+  background-color: #fffde9;
+}
+#yellow > .content > .detail > .weight > button {
+  color: #fffde9;
+}
