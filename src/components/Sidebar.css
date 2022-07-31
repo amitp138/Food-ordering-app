@@ -16,3 +16,19 @@ color: #62D793;
 font-size: 15px;
 margin: 10px;
 }
+@media screen and  (max-width: 800px) {
+    .btn{
+        border: 1px solid white;
+        width: 35vw;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        background-color: #FFFFFF;
+        border-radius: 0px;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+        color: #62D793;
+    }
+
+    }
