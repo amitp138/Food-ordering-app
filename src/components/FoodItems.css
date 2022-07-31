@@ -142,3 +142,13 @@
 #yellow > .content > .detail > .weight > button {
   color: #fffde9;
 }
+@media screen and  (max-width: 800px) {
+  .fooditem {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 42vw;
+    height: 27vh;
+  }
+}

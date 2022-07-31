@@ -17,3 +17,24 @@
     background-color: #FFFFFF;
     height: 95vh;
   }
+@media screen and  (max-width: 800px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    height: 20vw;
+    background-color: #62D793;
+    width: 100%;
+  }
+  .fooditems {
+    width: 100%;
+    background-color: #FFFFFF;
+   height: 100%;
+  }
+  .checkout {
+    width: 100%;
+    background-color: #FFFFFF;
+    
+  }
+}

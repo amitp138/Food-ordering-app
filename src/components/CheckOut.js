@@ -32,11 +32,13 @@ const CheckOut = (props) => {
             <td ><img src={item.url} alt="" className="url" /></td>
             <td>{item.name}</td>
             <td >
+              <button className="ctlbtn">
               <button onClick={() => onRemove(item)} className="remove">
                 -
               </button> {item.qty}
               <button onClick={() => onAdd(item)} className="add">
                 +
+              </button>
               </button>
             </td>
 
@@ -44,7 +46,7 @@ const CheckOut = (props) => {
               ${item.price}
             </td>
             <td>
-            <button onClick={() => onRemove(item)} >
+            <button onClick={() => onRemove(item)} className="cancel" >
                 X
               </button>
             </td>

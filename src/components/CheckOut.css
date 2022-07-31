@@ -40,3 +40,16 @@
     display: flex;
     justify-content: space-between;
 }
+.ctlbtn{
+    border: 1px solid #62D793;
+    border-radius: 20px;
+    background-color: white;
+}
+.cancel{
+    background-color: white;
+    border: 1px solid white;
+}
+.ctlbtn>button{
+    border: 1px solid white;
+    background-color: white;
+}
